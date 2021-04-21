@@ -1,0 +1,11 @@
+[package]
+name = "draw_force_graph"
+version = "0.1.0"
+
+[dependencies]
+nannou = "0.14"
+dynamic = "0.2"
+force_graph = "0.1.1"
+serde_json = "1.0.45"
+petgraph = "0.5.1"
+petgraph-evcxr = "0.2.0"
