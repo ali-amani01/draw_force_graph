@@ -1,0 +1,15 @@
+[package]
+name = "nannou_dot_file_visualization"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+nannou = "0.14"
+dynamic = "0.2"
+force_graph = "0.1.1"
+serde_json = "1.0.45"
+draw_force_graph = { path = "../lib" }
+
+[dependencies.petgraph]
+version = "0.5.1"
+features = ["serde-1"]

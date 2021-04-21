@@ -1,0 +1,43 @@
+digraph kosaraktest {
+    edge[style=solid, penwidth="5", labeldistance="10"]
+    root [label="root\ncardinality 500\nradius 2.49599679e+01\nlfd 8.00879113e-02", color="#0000FF", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01 [label="01\ncardinality 499\nradius 2.24276615e+01\nlfd 1.23692217e-01", color="#0000FF", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    0101 [label="0101\ncardinality 498\nradius 2.13541565e+01\nlfd 1.52647010e-01", color="#0000FF", style="filled"]
+    010 [label="010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010101 [label="010101\ncardinality 497\nradius 1.88679623e+01\nlfd 2.32588188e-01", color="#0000FF", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010 [label="01010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010 [label="010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010 [label="010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010 [label="01010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010101 [label="01010101\ncardinality 496\nradius 1.68522995e+01\nlfd 4.26719304e-01", color="#0000FF", style="filled"]
+    0101010 [label="0101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010 [label="010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010 [label="01010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    0101010101 [label="0101010101\ncardinality 495\nradius 1.62172747e+01\nlfd 4.91853096e-01", color="#0000FF", style="filled"]
+    0101010 [label="0101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010101010 [label="010101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010 [label="010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    0 [label="0\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010 [label="01010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010101010101 [label="010101010101\ncardinality 494\nradius 1.60312195e+01\nlfd 5.51762450e-01", color="#0000FF", style="filled"]
+    0101010 [label="0101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    01010101010 [label="01010101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    010101010 [label="010101010\ncardinality 1\nradius 0.00000000e+00\nlfd 1.00000000e+00", color="#6B0093", style="filled"]
+    root -> 0
+    root -> 01
+    01 -> 0101
+    01 -> 010
+    0101 -> 010101
+    0101 -> 01010
+    010101 -> 0101010
+    010101 -> 01010101
+    01010101 -> 010101010
+    01010101 -> 0101010101
+    0101010101 -> 01010101010
+    0101010101 -> 010101010101
+}
